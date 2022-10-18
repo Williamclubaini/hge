@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #222;
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .center {
+    text-align: center!important;
+  }
+
+  .error{
+    background-color:crimson!important; 
+    padding:5px!important;
+    text-align:center!important; 
+    color:#fff!important;
+  }
+  
+  #form {
+    max-width: 700px;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 10%;
+  }
+  
+  .form-field {
+    display: flex;
+    margin: 0 0 1rem 0;
+  }
+  label, input {
+    width: 70%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  label {
+    text-align: right;
+    width: 30%;
+  }
+  input {
+    border: 2px solid #aaa;
+    border-radius: 2px;
+  }
+  

@@ -1,0 +1,3 @@
+HOW TO RUN "HGE SYSTEM"
+
+1. COPY & PASTE FOLLOWING LINK IN YOUR FAVOURITE BROWSER : http://localhost/hge/setup/setup.php

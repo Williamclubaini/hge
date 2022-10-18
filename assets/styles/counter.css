@@ -1,0 +1,52 @@
+/* body{
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #number_up,
+  #number_down{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: right;
+    color: #6200ea;
+  } */
+
+  .flex-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .flex-item {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  .counter {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @media (max-width: 768px) {
+    .count-value {
+      font-size: 0.75rem;
+    }
+  }
+  
