@@ -1,4 +1,13 @@
+<link rel="stylesheet" href="assets/styles/social.css">
 <footer id="footer">
+<div class="social-menu">
+<h2 style="font-size: 13px!important;">Follow Us:</h2>
+        <ul>
+            <li><a href="#"><i class="bi bi-facebook fab"></i></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter fab"></i></i></a></li>
+            <li><a href="#"><i class="bi bi-whatsapp fab"></i></i></a></li>
+        </ul>
+    </div>
       <h2 style="font-size: 13px!important;">Home Gym Equipment &copy; All Rights Reserved</h2>
     </footer>
   </body>

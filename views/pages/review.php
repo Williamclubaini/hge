@@ -55,11 +55,11 @@
         <section id="food">
         <h2 class="fs20">Wearable Technology Categories</h2>
         <div class="txt-center">
-        <a class="txt-d-none" href="<?php echo base_URL('smartwatch')?>">Smart Watch</a>
+        <a class="txt-d-none" href="<?php echo base_URL('smartwatch')?>"><i class="bi bi-arrow-right"></i> Smart Watch</a>
         <br>
-        <a class="txt-d-none" href="<?php echo base_URL('smartglasses');?>">Smart Glasses</a>
+        <a class="txt-d-none" href="<?php echo base_URL('smartglasses');?>"><i class="bi bi-arrow-right"></i> Smart Glasses</a>
         <br>
-        <a class="txt-d-none" href="<?php echo base_URL('smartring');?>">Smart Ring</a>
+        <a class="txt-d-none" href="<?php echo base_URL('smartring');?>"><i class="bi bi-arrow-right"></i> Smart Ring</a>
         </div>
         
         </section>

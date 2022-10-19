@@ -17,6 +17,7 @@ class Smartglasses extends BaseController {
         $this->view('templates/header', $data);
         $this->view('templates/navbar');
         $this->view('templates/hero');
+        $this->view('templates/plan');
         $this->view('pages/smartglasses');
         $this->view('templates/footer');
     }

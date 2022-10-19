@@ -9,7 +9,7 @@ class Review extends BaseController {
     { 
         $data = [
             'page' => ucfirst($this->title(basename(__FILE__))),
-            'items'  => $this->getItemsLimit('products', 3, 3),
+            'items'  => $this->getData('products'),
         ];
 
         $this->include('libraries/session');

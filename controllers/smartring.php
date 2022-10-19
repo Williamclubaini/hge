@@ -17,6 +17,7 @@ class Smartring extends BaseController {
         $this->view('templates/header', $data);
         $this->view('templates/navbar');
         $this->view('templates/hero');
+        $this->view('templates/plan');
         $this->view('pages/smartring');
         $this->view('templates/footer');
     }
